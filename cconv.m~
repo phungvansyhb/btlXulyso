@@ -197,13 +197,13 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 sign1 = get(handles.input1 , "string");
-sign1 = str2num(sign1);
+sign1 = str2num(sign1)
 sign2 = get(handles.input2 , "string");
-sign2 = str2num(sign2);
+sign2 = str2num(sign2)
 n = get(handles.N , "string");
-n = str2num(n);
-result = cconv(sign1,sign2,n)
-
+n = str2num(n)
+result = cconv(sign1, sign2 , n);
+result = num2str(result)
 set(handles.result , "string" , result)
 
 % --- Executes on button press in pushbutton2.

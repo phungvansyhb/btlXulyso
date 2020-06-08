@@ -1,6 +1,9 @@
 	This App build by Matlab
-	To run it your computer need installed matlabruntime enviroment
 
-	***This Version is not release and will be updated***
+	*** If you don't have matlab Runtime enviroment
+	Open homemenu/for_restribution/run .exe file
 	
-	Download from here and run file homemenu.m in your MatlabWorks  
+	*** if you have matlab work just open matlab , choose Apps Tab/Install App/ browse for 
+	.mlappinstall file/Install . After that choose bellow the list in My apps you will see 
+	app installed 
+ 
